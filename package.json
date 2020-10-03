@@ -1,0 +1,24 @@
+{
+  "name": "ds-for-js",
+  "version": "1.0.0",
+  "description": "A package to provide common data structures readily for JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debnathSD/ds-for-js.git"
+  },
+  "keywords": [
+    "data",
+    "structure",
+    "JavaScript"
+  ],
+  "author": "Sourav Debnath <sourav2012d@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/debnathSD/ds-for-js/issues"
+  },
+  "homepage": "https://github.com/debnathSD/ds-for-js#readme"
+}
