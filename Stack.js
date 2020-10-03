@@ -11,7 +11,7 @@ class Stack {
   }
 
   /**
-   * @function push - Inserts element in the Stack
+   * @function push() - Inserts element in the Stack
    * @param {dataType} - The data to be inserted in the stack
    */
   push(item) {
@@ -19,16 +19,24 @@ class Stack {
   }
 
   /**
-   * @function pop - Retrieves element from the Stack Top
+   * @function pop() - Retrieves element from the Stack Top
    */
   pop() {
     return this.data.pop();
   }
 
   /**
-   * @function peek - Retrieves element from the Stack Top without removing it from the Stack
+   * @function peek() - Retrieves element from the Stack Top without removing it from the Stack
    */
   peek() {
     return this.data[this.data.length - 1];
+  }
+
+  /**
+   * @function isEmpty() - Checks whether stack is Empty or Not
+   * @returns {boolean}
+   */
+  isEmpty() {
+    return this.data.length > 0 ? false : true;
   }
 }
